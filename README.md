@@ -1,8 +1,9 @@
 # Divination
+> "Divination is a branch of magic that involves attempting to foresee the future, 
+> or gather insights into future events, through various rituals and tools." - Harry Potter
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/divination`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A simple implementation of cursor pagination for Rails and ActiveRecord, it pages based on the `primary_key` or `id` of the table. 
+[Divination](https://github.com/paddingtonsbear/divination) is based on the [Cursor](https://github.com/barkbox/cursor) gem with some minor additions
 
 ## Installation
 

@@ -37,6 +37,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rr', '>= 0'
   spec.add_development_dependency 'railties', '~> 4.2.0'
   spec.add_development_dependency 'sqlite3' #, '~> 0.18.4'
+  spec.add_development_dependency 'pry'
 
   # s.add_development_dependency 'tzinfo', ['>= 0']
   # s.add_development_dependency 'capybara', ['>= 1.0']

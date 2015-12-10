@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["gomezelom@yahoo.com"]
 
   spec.summary       = %q{Simple implementation of cursor pagination for Rails and ActiveRecord.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   = %q{A simple implementation of cursor pagination for Rails and ActiveRecord, it pages based on the primary_key or id of the table.}
+  spec.homepage      = "https://github.com/paddingtonsbear/divination"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -38,8 +38,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'railties', '~> 4.2.0'
   spec.add_development_dependency 'sqlite3' #, '~> 0.18.4'
   spec.add_development_dependency 'pry'
-
-  # s.add_development_dependency 'tzinfo', ['>= 0']
-  # s.add_development_dependency 'capybara', ['>= 1.0']
-  # s.add_development_dependency 'rdoc', ['>= 0']
 end

@@ -16,7 +16,7 @@ module Divination
       end
 
       def self.collection(max_id)
-        if max_id.nil?
+        if max_id.blank?
           where(nil)
         else
           where(["#{self.table_name}.#{primary_key} <= ?", max_id])

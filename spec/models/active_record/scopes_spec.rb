@@ -67,6 +67,11 @@ describe Divination::ActiveRecordExtension do
           it_should_behave_like 'the first before max_id page'
         end
 
+        context 'max_id is empty string' do
+          subject { model_class.page(max_id: '') }
+          it_should_behave_like 'the first before max_id page'
+        end
+
         context 'before max_id page < 0' do
           subject { model_class.page(max_id: 0) }
           it_should_behave_like 'blank page'

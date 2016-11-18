@@ -1,5 +1,4 @@
 require "divination/version"
-require 'pry'
 
 module Divination
 end

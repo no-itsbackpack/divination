@@ -16,7 +16,7 @@ class Device < Product
 end
 
 #migrations
-class CreateAllTables < ActiveRecord::Migration
+class CreateAllTables < ActiveRecord::Migration[5.0]
   def self.up
     create_table(:gem_defined_models) { |t| t.string :name; t.integer :age }
     create_table(:users) {|t| t.string :name; t.integer :age; t.integer :admin_id }
